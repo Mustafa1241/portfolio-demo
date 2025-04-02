@@ -1,0 +1,120 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #915fee, #ff3636);
+    color: black;
+    text-align: center;
+    }
+    
+    
+    header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    }
+    
+    nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    }
+    
+    .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d0e41f;
+    }
+    
+    .nav-links {
+    list-style: none;
+    padding: 0;
+    }
+    
+    .nav-links li {
+    display: inline;
+    margin: 0 15px;
+    }
+    
+    .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    }
+    
+    
+    .hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .hero h1 {
+    font-size: 48px;
+    }
+    
+    .hero span {
+    color: #b8b65d;
+    }
+    
+    .hero p {
+    font-size: 22px;
+    }
+    
+    .btn {
+    background: #ffde59;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: 0.3s;
+    }
+    
+    .btn:hover {
+    background: #ff9a9e;
+    }
+    
+    
+    .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    
+
+    .project {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    }
+    
+
+    .social-icons {
+    margin-top: 10px;
+    }
+    
+    .social-icons a {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    margin: 0 10px;
+    transition: 0.3s;
+    }
+    
+    .social-icons a:hover {
+    color: #ffde59;
+    }
+    
